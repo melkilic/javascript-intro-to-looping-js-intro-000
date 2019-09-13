@@ -12,8 +12,8 @@ return array;
 
 function whileLoop(number){
 let n=30;
+return console.log('done');
+}
+}
 while(n=1){
   console.log(--countdown);
-  return console.log('done');
-}
-}
