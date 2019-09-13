@@ -33,4 +33,3 @@ do {
 } while (num.length=10 && maybeTrue());
   return num;
 }
-
