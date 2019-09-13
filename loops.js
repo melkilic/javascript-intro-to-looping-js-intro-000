@@ -21,9 +21,9 @@ function maybeTrue() {
   return Math.random() >= 0.5
 }
 
- function doWhileLoop(num){
-do {
-  num = num.slice(1)
-} while (num.length > 0 && maybeTrue())
- return num
-}
+function doWhileLoop(array) {
+ do {
+   array = array.slice(1)
+ } while (array.length > 0 && maybeTrue())
+ return array
+ }
