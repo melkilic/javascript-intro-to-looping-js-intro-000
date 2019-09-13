@@ -9,3 +9,10 @@ function forLoop(array){
 }
 return array;
 }
+
+function whileLoop(number){
+let number=30;
+while(number=0){
+  console.log('done')
+}
+}
