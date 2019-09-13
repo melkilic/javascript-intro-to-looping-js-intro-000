@@ -10,7 +10,7 @@ function forLoop(array){
 return array;
 }
 
-function whileLoop(n){
+function whileLoop(number){
 let n=30;
 while(n=1){
   console.log(--countdown);
