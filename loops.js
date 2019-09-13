@@ -18,18 +18,21 @@ return 'done';
 }
 
 function doWhileLoop(num) {
-  function maybeTrue() {
-    return Math.random() >= 0.5
-  }
-
+  var i = 0;
+ 
+function incrementVariable() {
+  i = i + 1;
+  return i;
+}
+ 
   do {
     console.log("I run once regardless.")
-  } while (num.length=0 && maybeTrue());
+  } while (incrementVariable() < 5);
     return num;
 
 
 do {
   console.log("I run once regardless.")
-} while (num.length=10 && maybeTrue());
+} while (incrementVariable()=0);
   return num;
 }
