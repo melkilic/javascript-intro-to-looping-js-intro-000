@@ -27,12 +27,12 @@ function incrementVariable() {
 
   do {
     console.log("I run once regardless.")
-  } while (incrementVariable() < 5);
+  } while (incrementVariable() < 1);
     return num;
 
 
 do {
   console.log("I run once regardless.")
-} while (incrementVariable()=0);
+} while (incrementVariable()=10);
   return num;
 }
