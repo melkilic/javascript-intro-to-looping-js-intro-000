@@ -17,15 +17,12 @@ function whileLoop(number){
 return 'done';
 }
 
- var i = 0;
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
+
  function doWhileLoop(num){
-
-   i = i + 1;
-     return i;
-   }
-
-   do {
+do {
      console.log("I run once regardless.");
    } while (incrementVariable() < num);
-   ```
- }
+   
