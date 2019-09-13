@@ -23,6 +23,8 @@ function maybeTrue() {
 
  function doWhileLoop(num){
 do {
-     console.log("I run once regardless.");
-   } while (incrementVariable() < num);
+  array = array.slice(1)
+ } while (array.length > 0 && maybeTrue())
+ return array
+}
    
